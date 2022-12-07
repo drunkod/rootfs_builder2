@@ -1,0 +1,9 @@
+{
+    "Name": "ghcr.io/drunkod/coder-server:master@sha256:f6237078addf603a6433571c2473d568bf5436c278c7d686e42d331492659afa",
+    "Retries": 1,
+    "HTTPS": false,
+    "Spec": {
+        "Dest": "/tmp/code",
+        "User": "fas"
+    }
+}
