@@ -75,6 +75,9 @@ not an official ForAllSecure maintained product or offering.
 
 Some code recycled from Google's Kaniko.
 
+Rootfs builder can be run with:
+`./rootfs_builder example_configs/code.json`
+
 Tar intro
 
-tar -czv --numeric-owner -f alpine-minirootfs-gitcode-arm64.tar.gz .
+tar -czv --numeric-owner -f /rootfs_builder/images/alpine-minirootfs-gitcode-arm64.tar.gz .

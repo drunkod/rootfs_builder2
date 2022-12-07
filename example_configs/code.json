@@ -3,7 +3,7 @@
     "Retries": 1,
     "HTTPS": false,
     "Spec": {
-        "Dest": "/rootfs_builder/images/code",
+        "Dest": "/tmp/code",
         "User": "fas"
     }
 }
