@@ -74,3 +74,7 @@ This code is from [ForAllSecure](https://forallsecure.com) labs. It is
 not an official ForAllSecure maintained product or offering.
 
 Some code recycled from Google's Kaniko.
+
+Tar intro
+
+tar -czv --numeric-owner -f alpine-minirootfs-gitcode-arm64.tar.gz .
