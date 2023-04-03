@@ -81,3 +81,8 @@ Rootfs builder can be run with:
 Tar intro
 
 tar -czv --numeric-owner -f /rootfs_builder/images/alpine-minirootfs-gitcode-arm64.tar.gz .
+
+
+1 get from docker registry
+2 
+
