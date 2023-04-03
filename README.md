@@ -94,7 +94,7 @@ tar -czv --numeric-owner -f /rootfs_builder/images/alpine-minirootfs-gitcode-arm
 5 cd /tmp
     rmcd /code
 
-6 tar -czv --numeric-owner -f /rootfs_builder/images/cent7-nimble-arm64.tar.gz .
+6 tar -czv --numeric-owner -f /rootfs_builder/images/cent7-nimble-arm64.tar.xz .
 
 7 download from /images
 
