@@ -89,12 +89,21 @@ tar -czv --numeric-owner -f /rootfs_builder/images/alpine-minirootfs-gitcode-arm
 
 3 make dev 
 
+rm -rf /tmp/code
+
 4 ./rootfs_builder example_configs/nimble.json
 
-5 cd /tmp
+5 cd /tmp/code
     rmcd /code
 
-6 tar -czv --numeric-owner -f /rootfs_builder/images/cent7-nimble-arm64.tar.xz .
+6 `tar -czv --numeric-owner -f /rootfs_builder/images/centos9-rootfs-arm64.tar.gz .`
+
+`apt-get update
+apt-get install xz`
+
+create .tar.xz:
+`tar -cJv --numeric-owner -f /rootfs_builder/images/centos9-rootfs-arm64.tar.xz .`
+
 
 7 download from /images
 
