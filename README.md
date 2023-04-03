@@ -83,6 +83,15 @@ Tar intro
 tar -czv --numeric-owner -f /rootfs_builder/images/alpine-minirootfs-gitcode-arm64.tar.gz .
 
 
-1 get from docker registry
-2 
+1 get name from docker registry to file example_configs/code.json
+2 make local_static
+
+3 make dev 
+4 ./rootfs_builder example_configs/nimble.json
+5 cd /tmp
+    rmcd /code
+
+6 tar -czv --numeric-owner -f /rootfs_builder/images/cent7-nimble-arm64.tar.gz .
+7 download from /images
+
 

@@ -1,0 +1,9 @@
+{
+    "Name": "ghcr.io/drunkod/cent7-nimble-publish-to-gcr:main",
+    "Retries": 1,
+    "HTTPS": false,
+    "Spec": {
+        "Dest": "/tmp/code",
+        "User": "fas"
+    }
+}
